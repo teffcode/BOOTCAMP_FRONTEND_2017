@@ -2,4 +2,9 @@
 
 ### __Temas__:
 
-* 
+* Git
+* Webtask
+* Markdown
+* SCRUM
+* HTML
+* CSS
