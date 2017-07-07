@@ -1,8 +1,6 @@
 # BOOTCAMP FRONT-END
 ## Estefany Aguilar R.
 
-------
-
 ### Introducción:
 
 Este Bootcamp Front-end es ofrecido por ___World Tech Makers Academy S.A.S___, quien ofrece cursos presenciales y virtuales de formación académica no formal sobre desarrollo de técnicas de programación.
