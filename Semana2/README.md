@@ -1,6 +1,6 @@
-# Semana 1
+# Semana 2
 ------
 
 ### __Temas__:
 
-* 
+*
