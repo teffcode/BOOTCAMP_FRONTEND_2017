@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="toastr.min.js"></script>
+<link href="toastr.min.css" type="text/css" rel="stylesheet"/>
+<script>
+$(function() {
+webtask = function(){
+	let vidaSuperman = 50;
+	let vidaGoku = 50;
+
+	const MIN_POWER = 5;
+	const MAX_POWER = 12;
+
+	const siganVivos = () => vidaSuperman > 0 && vidaGoku > 0;
+
+	const golpe = () => Math.round(Math.random() * (MAX_POWER - MIN_POWER) + MIN_POWER);
+
+	let round = 0;
+
+	while(siganVivos()){
+
+		round ++;
+		toastr.success(`Round ${round}`);
+
+		let golpeSuperman = golpe();
+		let golpeGoku = golpe();
+
+		if(golpeSuperman > golpeGoku){
+			toastr.error(`Superman golpeó con ${golpeSuperman} a Gokú`);
+			vidaGoku -= golpeSuperman;
+		} else{
+			toastr.warning(`Gokú golpeó con ${golpeGoku} a Superman`);
+			vidaSuperman -= golpeGoku;
+		}
+	}
+
+	if (vidaSuperman > vidaGoku){
+		window.location.href = "https://wt-9f716f8a5fdff5c80680a08546695cf2-0.run.webtask.io/try?winner=Superman";
+	} else{
+		window.location.href = "https://wt-9f716f8a5fdff5c80680a08546695cf2-0.run.webtask.io/try?winner=Goku";
+	}
+}
+
+});
+</script>
+<style>
+@keyframes floatS {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes floatG {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+#super {
+    position: relative;
+    -webkit-animation-name: floatS; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: floatS;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#goku {
+    position: relative;
+    -webkit-animation-name: floatG; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: floatG;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+</style>
+</head>
+<body>
+<img id="super" src="superman.png" style="width:420px;height:420px;" alt="superman">
+<img src="VS.png" style="width:150px;height:150px;" alt="vs">
+<img id="goku" src="goku.png" style="width:420px;height:420px;" alt="goku">
+<br/>
+<input onclick="webtask();" type="button" style="margin: 0 auto;" value="Fight!"/>
+
+</body>
+
+</html>
