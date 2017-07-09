@@ -1,18 +1,18 @@
-# BOOTCAMP FRONT-END
-## Estefany Aguilar R.
+# 💻 BOOTCAMP FRONT-END MEDELLÍN 2017 🎓
+## 👩 Estefany Aguilar R.
 
-### Introducción:
+
 
 Este Bootcamp Front-end es ofrecido por ___World Tech Makers Academy S.A.S___, quien ofrece cursos presenciales y virtuales de formación académica no formal sobre desarrollo de técnicas de programación.
 
 ------
 
-### Fechas:
+### 📆 Fechas:
 
 ___Semana___ | ___Fecha___ | ___Temas___
 :--: | :--: | :--:
-1 | Del 27 junio al 1 julio |
-2 | Del 4 julio al 8 julio |
+1 | Del 27 junio al 1 julio | Introducción a: Git y GitHub, Webtask, Markdown, SCRUM, HMTL y CSS
+2 | Del 4 julio al 8 julio | SCRUM, CSS, fundamentos de JavaScript y HTML semántico
 3 | Del 10 julio al 15 julio |
 4 | Del 17 julio al 22 julio |
 5 | Del 24 julio al 29 julio |
@@ -23,15 +23,15 @@ ___Semana___ | ___Fecha___ | ___Temas___
 
 ------
 
-### Slides:
+### 💜 Slides:
 
 > <https://goo.gl/wTAkbm>
 
 ------
 
-### Agradecimientos:
+### 👏 Agradecimientos:
 
 ![Imagen 1][1]  ![Imagen 2][2]
 
- [1]: img/WTM.png
- [2]: img/Alcaldía_SDE.jpg
+ [1]: ./img/WTM.png
+ [2]: ./img/Alcaldía_SDE.jpg
