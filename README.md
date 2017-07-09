@@ -1,4 +1,4 @@
-# 💻 BOOTCAMP FRONT-END MEDELLÍN 2017 🎓
+![Imagen 1][1]
 ## 👩 Estefany Aguilar R.
 
 
@@ -31,7 +31,8 @@ ___Semana___ | ___Fecha___ | ___Temas___
 
 ### 👏 Agradecimientos:
 
-![Imagen 1][1]  ![Imagen 2][2]
+![Imagen 1][2]  ![Imagen 2][3]
 
- [1]: ./img/WTM.png
- [2]: ./img/Alcaldía_SDE.jpg
+ [1]: ./bootcamp.png
+ [2]: ./img/WTM.png
+ [3]: ./img/Alcaldía_SDE.jpg
