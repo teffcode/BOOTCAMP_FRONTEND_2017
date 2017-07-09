@@ -46,10 +46,10 @@ Placeholder “ingrese su nombre”
 >https://browserdiet.com/es/
 * SUBMIT
  * Enviar correo desps de poner los datos en el formulario
-> https://www.mailgun.com/
 
+ > https://www.mailgun.com/
 
-## TAREAS: 
+## TAREAS:
 - CV semántica -> que tenga un formulario de contacto (en la misma hoja en otra parte, que te dirija a otro lado para llenar el formulario)
 - hacer una webtask URL -> poner en form”action” el webtask y mandarle los datos, recibir los datos del frontend (context data.query)
 En webtaxt, colocar en el context el query -> cd (null, ctx.data)
