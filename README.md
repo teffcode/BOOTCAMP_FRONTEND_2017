@@ -32,6 +32,6 @@ ___Semana___ | ___Fecha___ | ___Temas___
 <p align="center">
   <a>
     <img width=50% src="./WTM.png">
-    <img width=50% src="./Alcaldía_SDE.jpg">
+    <img width=35% src="./Alcaldía.png">
   </a>
 </p>
