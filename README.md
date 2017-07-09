@@ -1,13 +1,14 @@
-![Imagen 1][1]
-## 👩 Estefany Aguilar R.
+<p align="center">
+  <a>
+    <img width=100% src="./bootcamp.png">
+  </a>
+</p>
 
+<p align="center">
+  Este Bootcamp Front-end es ofrecido por ___World Tech Makers Academy S.A.S___, quien ofrece cursos presenciales y virtuales de formación académica no formal sobre desarrollo de técnicas de programación.
+</p>
 
-
-Este Bootcamp Front-end es ofrecido por ___World Tech Makers Academy S.A.S___, quien ofrece cursos presenciales y virtuales de formación académica no formal sobre desarrollo de técnicas de programación.
-
-------
-
-### 📆 Fechas:
+## 📆 Fechas:
 
 ___Semana___ | ___Fecha___ | ___Temas___
 :--: | :--: | :--:
@@ -21,18 +22,16 @@ ___Semana___ | ___Fecha___ | ___Temas___
 8 | Del 14 agosto al 19 agosto |
 9 | Del 22 agosto al 26 agosto |
 
-------
 
-### 💜 Slides:
+## 💜 Slides:
 
 > <https://goo.gl/wTAkbm>
 
-------
+## 👏 Agradecimientos:
 
-### 👏 Agradecimientos:
-
-![Imagen 1][2]  ![Imagen 2][3]
-
- [1]: ./bootcamp.png
- [2]: ./img/WTM.png
- [3]: ./img/Alcaldía_SDE.jpg
+<p align="center">
+  <a>
+    <img width=50% src="./WTM.png">
+    <img width=35% src="./Alcaldía_SDE.jpg">
+  </a>
+</p>
