@@ -15,8 +15,8 @@
 
 ___Semana___ | ___Fecha___ | ___Temas___
 :--: | :--: | :--:
-1 | Del 27 junio al 1 julio | Introducción a: Git y GitHub, Webtask, Markdown, SCRUM, HMTL y CSS
-2 | Del 4 julio al 8 julio | SCRUM, CSS, fundamentos de JavaScript y HTML semántico
+1 | Del 27 junio al 1 julio | Introducción a: Git y GitHub, Webtask, Markdown, HMTL y CSS
+2 | Del 4 julio al 8 julio | SCRUM, fundamentos de JavaScript, CSS,  y HTML semántico
 3 | Del 10 julio al 15 julio |
 4 | Del 17 julio al 22 julio |
 5 | Del 24 julio al 29 julio |
