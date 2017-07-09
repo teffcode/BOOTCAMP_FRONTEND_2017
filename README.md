@@ -4,9 +4,12 @@
   </a>
 </p>
 
-<p align="center">
+## 🎓 Bootcamp Front-end
   Este Bootcamp Front-end es ofrecido por ___World Tech Makers Academy S.A.S___, quien ofrece cursos presenciales y virtuales de formación académica no formal sobre desarrollo de técnicas de programación.
-</p>
+
+## 💜 Slides:
+
+  > <https://goo.gl/wTAkbm>
 
 ## 📆 Fechas:
 
@@ -23,15 +26,12 @@ ___Semana___ | ___Fecha___ | ___Temas___
 9 | Del 22 agosto al 26 agosto |
 
 
-## 💜 Slides:
-
-> <https://goo.gl/wTAkbm>
 
 ## 👏 Agradecimientos:
 
 <p align="center">
   <a>
     <img width=50% src="./WTM.png">
-    <img width=35% src="./Alcaldía_SDE.jpg">
+    <img width=50% src="./Alcaldía_SDE.jpg">
   </a>
 </p>
