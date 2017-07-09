@@ -24,14 +24,3 @@ ___Semana___ | ___Fecha___ | ___Temas___
 7 | Del 8 agosto al 12 agosto |
 8 | Del 14 agosto al 19 agosto |
 9 | Del 22 agosto al 26 agosto |
-
-
-
-## 👏 Agradecimientos:
-
-<p align="center">
-  <a>
-    <img width=50% src="./WTM.png">
-    <img width=35% src="./Alcaldía.png">
-  </a>
-</p>
