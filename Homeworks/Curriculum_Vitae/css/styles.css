@@ -1,21 +1,36 @@
+
 header{
   width: 1000px;
   height: 400px;
   margin: 0 auto;
+  background-color: #FFB6C1;
 }
+
 
 .imagen {
   height: 300px;
   background: url("../img/tefa.jpg");
   background-repeat: no-repeat;
   border-radius: 50%;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 5px;
   background-position: center 0;
   width: 300px;
   background-size: 115%;
   margin: 50px;
-  margin-bottom: 50px;
-  margin-left: 140px;
+  margin-left: 150px;
+  margin-right: 5px;
   display: inline-block;
+}
+
+.imagen_{
+  width: 400px;
+  height: 300px;
+  background: url("../img/Estefany.png");
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
 }
 
 .imagen1{
@@ -23,7 +38,8 @@ header{
   height: 50px;
   background: url("../img/code.png");
   margin: 0 auto;
-  margin-bottom: 17px;
+  margin-top: 17px;
+  margin-bottom: 21px;
 }
 
 .imagen2{
@@ -31,8 +47,8 @@ header{
   height: 50px;
   background: url("../img/bicycle.png");
   margin: 0 auto;
-  margin-top: 8px;
-  margin-bottom: 9px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .nombre{
@@ -75,11 +91,7 @@ article{
   margin-bottom: 30px;
 }
 
-div{
-  display: inline-block;
-}
-
-.titulos1{
+.titulos{
 	clear: both;
 	text-transform: none;
 	font-weight: 500;
@@ -93,27 +105,12 @@ div{
   margin-right: 10px;
 }
 
-.titulos2{
-	clear: both;
-	text-transform: none;
-	font-weight: 500;
-	line-height: 1.4;
-	color: #000;
-  font-weight: 500;
-	font-family: 'Pacifico', cursive;
-  font-size: 40px;
-  margin: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
 /* Grid */
 
 .sectionPrincipal{
   width: 1000px;
-  height: 1400px;
-  background-color: #FFF;
+  height: 1800px;
+  background-color: #FFB6C1;
   margin: 0 auto;
 }
 
@@ -141,11 +138,10 @@ div{
   margin-bottom: 12px;
 	padding: 40px;
 	text-align: center;
-	border-color: #DC143C;
+	border-color: #FFFF00;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color: #FF6666;
+  border-width: 5px;
+  background-color: #FFB6C1;
   vertical-align: top;
 }
 
@@ -159,9 +155,8 @@ div{
 	text-align: center;
 	border-color:  #9900CC;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color:  #d966ff;
+  border-width: 5px;
+  background-color:  #FFB6C1;
   vertical-align: top;
 }
 
@@ -173,11 +168,10 @@ div{
   margin-bottom: 12px;
 	padding: 40px;
 	text-align: center;
-	border-color: #6B8E23;
+	border-color: #9ACD32;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color: #9ACD32;
+  border-width: 5px;
+  background-color: #FFB6C1;
   vertical-align: top;
 }
 
@@ -189,11 +183,10 @@ div{
   margin-bottom: 13px;
 	padding: 40px;
 	text-align: center;
-	border-color: #00CED1;
+	border-color: #00FFFF;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color: #40E0D0;
+  border-width: 5px;
+  background-color: #FFB6C1;
   vertical-align: top;
 }
 
@@ -207,9 +200,8 @@ div{
 	text-align: center;
 	border-color: #C71585;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color: #FF69B4;
+  border-width: 5px;
+  background-color: #FFB6C1;
   vertical-align: top;
 }
 
@@ -221,38 +213,47 @@ div{
   margin-bottom: 12px;
 	padding: 40px;
 	text-align: center;
-	border-color: #FF4500;
+	border-color: #FF6347;
 	border-style: solid;
-  border-width: 11px;
-  border-radius: 15px;
-  background-color: #FF8C00;
+  border-width: 5px;
+  background-color: #FFB6C1;
   vertical-align: top;
 }
 
-.section7{
-	width: 500px;
+.sectionPrincipal3{
+	width: 700px;
 	height: auto;
 	margin: 0 auto;
-  margin-top: 50px;
 	padding: 40px;
 	text-align: center;
-	border-style: dotted;
-  border-color: #FFB6C1;
+	border-style: solid;
+  border-color: #FFF;
   border-width: 5px;
-  border-radius: 15px;
   vertical-align: top;
+  background-color: #FFB6C1;
 }
 
 .section8{
   margin: 0 auto;
 }
 
+.button{
+  margin: 50px;
+}
+
+footer{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFB6C1;
+}
+
 /* Background colors */
 
 .color-gradient {
-	background: -webkit-linear-gradient(90deg, #FFE4E1 10%, #FFF 90%);
-	background:    -moz-linear-gradient(90deg, #FFE4E1 10%, #FFF 90%);
-	background:     -ms-linear-gradient(90deg, #FFE4E1 10%, #FFF 90%);
-	background:      -o-linear-gradient(90deg, #FFE4E1 10%, #FFF 90%);
-	background:         linear-gradient(90deg, #FFE4E1 10%, #FFF 90%);
+	background: -webkit-linear-gradient(90deg, #F93B50 10%, #40E0D0 90%);
+	background:    -moz-linear-gradient(90deg, #F93B50 10%, #40E0D0 90%);
+	background:     -ms-linear-gradient(90deg, #F93B50 10%, #40E0D0 90%);
+	background:      -o-linear-gradient(90deg, #F93B50 10%, #40E0D0 90%);
+	background:         linear-gradient(90deg, #F93B50 10%, #40E0D0 90%);
 }
