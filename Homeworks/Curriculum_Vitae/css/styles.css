@@ -109,7 +109,7 @@ article{
 
 .sectionPrincipal{
   width: 1000px;
-  height: 1800px;
+  height: 1900px;
   background-color: #FFB6C1;
   margin: 0 auto;
 }
@@ -221,9 +221,11 @@ article{
 }
 
 .sectionPrincipal3{
-	width: 700px;
+	width: 703px;
 	height: auto;
 	margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
 	padding: 40px;
 	text-align: center;
 	border-style: solid;
@@ -239,6 +241,32 @@ article{
 
 .button{
   margin: 50px;
+}
+
+form{
+  display: flex;
+  width: 700px;
+}
+
+input, textarea {
+  width: 600px;
+  height: 30px;
+  padding: 8px;
+  margin: 10px;
+	border: 1px solid #FFB6C1;
+	border-radius: 4px;
+	font-family: inherit;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  background: #FFB6C1;
+  border-radius: 10px;
+  border-color: #FFF;
+  border-style: solid;
 }
 
 footer{

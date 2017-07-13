@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
   </head>
   <body>
-
+    <!--HTML SEMÁNTICO-->
     <header>
       <section class="imagen"></section>
       <section class="imagen_"></section>
@@ -101,30 +101,38 @@
           </article>
         </section>
       </section>
+      <!--FLEXBOX-->
       <section class="sectionPrincipal3">
         <h1 class="titulos">Contáctame</h1>
         <form>
-          <div>
-            <label for="">Email</label>
-            <input type="text">
-          </div>
-          <div>
-            <label for="">Asunto</label>
-            <input type="text">
-          </div>
-          <div>
-            <label for="">Mensaje</label>
-            <input type="text">
-          </div>
-          <button type="submit" name="button" class"button">ENVIAR</button>
+          <ul>
+            <div>
+              <label for="inputEmail"></label>
+              <input type="email" id="inputEmail" placeholder="Email">
+            </div>
+            <div>
+              <label for="inputAsunto"></label>
+              <input type="text" id="inputAsunto" placeholder="Asunto">
+            </div>
+            <div>
+              <label for="inputMensaje"></label>
+              <input type="text" id="inputMensaje" placeholder="Mensaje">
+            </div>
+            <button type="submit" name="button" class"button">
+              <h2>
+                ENVIAR
+              </h2>
+            </button>
+          </ul>
         </form>
       </section>
+      <footer>
+        <div>
+          <p style="padding-top: 10px">BOOTCAMP FRONT-END</p>
+          <p style="padding: 10px">World Tech Maker</p>
+        </div>
+      </footer>
+
     </section>
-    <footer>
-      <div>
-        <p style="padding-top: 10px">BOOTCAMP FRONT-END</p>
-        <p style="padding: 10px">World Tech Maker</p>
-      </div>
-    </footer>
   </body>
   </html>
