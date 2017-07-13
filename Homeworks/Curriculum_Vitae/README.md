@@ -3,6 +3,6 @@
 
 <p align="center">
   <a>
-    <img width=100% src="/img/cv.png">
+    <img width=80% src="./img/cv.png">
   </a>
 </p>
