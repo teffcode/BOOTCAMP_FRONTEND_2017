@@ -1,0 +1,73 @@
+body{
+  background: #D8D8D8;
+}
+
+.App {
+  text-align: center;
+}
+
+.color1{
+  color: #FA3;
+}
+
+.color2{
+  color: #aaff00;
+}
+
+.color3{
+  color: #66d9ff;
+}
+
+.color4{
+  color: #ff99ff;
+}
+
+.color5{
+  color: #bf80ff;
+}
+
+.Card{
+  width: 200px;
+  height: 250px;
+  background: papayawhip;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.CardImg{
+  width: 200px;
+  height: 163px;
+  background-color: #fff;
+  position: absolute;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background: #66d9ff;
+}
+
+.CardContent{
+  width: 200px;
+  height: 90px;
+  background-color: #fff;
+  position: absolute;
+  top: 160px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+h3{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+p{
+  margin: 0 auto;
+  position: absolute;
+  left: 52px;
+  top: 35px;
+}
